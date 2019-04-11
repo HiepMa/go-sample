@@ -3,7 +3,7 @@ import (
 	"fmt"
 	"math"
 )
-func main(){
+func s1_var(){
 	// var age int // variable declaration
 //    fmt.Println("my age is ", age)
     // age = 29 //assignment
