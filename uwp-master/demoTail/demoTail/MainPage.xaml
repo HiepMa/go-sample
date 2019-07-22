@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="demoTail.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:demoTail"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:demoTail.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <UserControl.DataContext>
+        <viewModel:SubmitViewModel/>
+    </UserControl.DataContext>
+
+    <Grid Name="rootGrid" KeyDown="Grid_KeyDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <CommandBar x:Name="MainCommandBar" AccessKey="M" Grid.Column="2" Grid.Row="0" >
+            <AppBarButton AccessKey="G" Icon="Globe" Label="Go"/>
+            <AppBarButton AccessKey="S" Icon="Stop" Label="Stop"/>
+            <AppBarSeparator/>
+            <AppBarButton AccessKey="R" Icon="Refresh" Label="Refresh" IsAccessKeyScope="True">
+                <AppBarButton.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem AccessKey="A" Icon="Globe" Text="Refresh A" />
+                        <MenuFlyoutItem AccessKey="B" Icon="Globe" Text="Refresh B" />
+                        <MenuFlyoutItem AccessKey="C" Icon="Globe" Text="Refresh C" />
+                        <MenuFlyoutItem AccessKey="D" Icon="Globe" Text="Refresh D" />
+                    </MenuFlyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+            <AppBarButton AccessKey="B" Icon="Back" Label="Back"/>
+            <AppBarButton AccessKey="F" Icon="Forward" Label="Forward"/>
+            <AppBarSeparator/>
+            <AppBarToggleButton AccessKey="V" Icon="Favorite" Label="Favorite"/>
+            <CommandBar.SecondaryCommands>
+                <AppBarToggleButton Icon="Like" AccessKey="L" Label="Like"/>
+                <AppBarButton Icon="Setting" AccessKey="T" Label="Settings" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+        <MediaElement Name="DemoMusic" Source="/Assets/music.mp3" HorizontalAlignment="Center" Width="547" Margin="0,26,0,25" AreTransportControlsEnabled="True" AutoPlay="True">
+        </MediaElement>
+        <StackPanel Grid.Row="1" Margin="10" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="PlayButton" Click="MediaButton_Click" ToolTipService.ToolTip="Shortcut key: Ctrl+P" AutomationProperties.AcceleratorKey="Control P">
+                <TextBlock>Play</TextBlock>
+            </Button>
+            <Button x:Name="PauseButton" Click="MediaButton_Click" ToolTipService.ToolTip="Shortcut key: Ctrl+A" AutomationProperties.AcceleratorKey="Control A">
+                <TextBlock>Pause</TextBlock>
+            </Button>
+            <Button x:Name="StopButton" Click="MediaButton_Click" ToolTipService.ToolTip="Shortcut key: Ctrl+S" AutomationProperties.AcceleratorKey="Control S">
+                <TextBlock>Stop</TextBlock>
+            </Button>
+        </StackPanel>
+        <TextBox Name="tbox" KeyDown="tbox_enter" Grid.Row="2" Grid.Column="1" Height="50" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBox>
+        <Button Name="bt" Click="SubmitClick" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="2" Width="100" Height="50" Content="Submit"></Button>
+        <TextBlock Name="tblock" Grid.Row="3" Grid.Column="1"  Height="50" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Sample" FontSize="20"></TextBlock>
+
+        <TextBox x:Name="Text" Text="{Binding Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  Grid.Row="2" Grid.Column="0" Height="50" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBox>
+        <Button x:Name="bts" Command="{Binding Path=Click_Submit}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2" Width="100" Height="50" Content="Submit"></Button>
+        <TextBlock x:Name="textblock" Text="{Binding Path=TextBlock}" Grid.Row="3" Grid.Column="0"  Height="50" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></TextBlock>
+    </Grid>
+</Page>

@@ -1,0 +1,1 @@
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\demoTail.csproj;x64

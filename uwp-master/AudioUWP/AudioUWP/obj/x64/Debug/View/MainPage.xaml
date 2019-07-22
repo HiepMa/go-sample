@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="AudioUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AudioUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=Main}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="33"/>
+            <RowDefinition Height="416"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock FontSize="24">Audio in UWP</TextBlock>
+
+        <StackPanel HorizontalAlignment="Center" Grid.Row="1" Margin="142,0"  >
+            <Button x:ConnectionId='2' Name="btnRecord" Command="{Binding Path=Record}" Margin="5" Content="{Binding Path=RecordText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ></Button>
+
+            <Button x:ConnectionId='3' Name="btnPlay" Command="{Binding Path=Play}" HorizontalAlignment="Center" Margin="5">Play</Button>
+
+            <Button x:ConnectionId='4' x:Name="btnTest" Command="{Binding Path=Test}" HorizontalAlignment="Center" Content="Talk" Margin="5"/>
+
+            <Button x:ConnectionId='5' x:Name="btnStop" Command="{Binding Path=Stop}" HorizontalAlignment="Center" Content="Stop" Margin="5"/>
+
+            <Button x:ConnectionId='6' x:Name="btnRunServer" Command="{Binding Path=RunServer}" HorizontalAlignment="Center" Content="Run Server" Margin="5"/>
+
+
+        </StackPanel>
+        <Grid Grid.Row="3">
+            <TextBlock Foreground="Red" Text="Select Device" FontSize="15" Margin="20,0,0,0"/>
+            <TextBlock Foreground="Red" Text="Class GUID:" FontSize="15" Margin="20,50,0,0"/>
+            <TextBlock Foreground="Red" Text="{Binding CountDevices}" FontSize="15" Margin="200,50,0,0"/>
+            <Button Foreground="Red" Margin="20,100,0,0" Content="Click" Command="{Binding Path=Click_Count}"/>
+        </Grid>
+
+    </Grid>
+</Page>
+

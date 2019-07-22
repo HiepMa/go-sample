@@ -1,0 +1,236 @@
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csprojAssemblyReference.cache
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\App.g.i.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\App.g.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.g.i.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.g.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.g.i.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.g.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\App.xaml
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.xaml
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.xaml
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\App.xbf
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.xbf
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.xbf
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\XamlSaveStateFile.xml
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\App.xbf
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\MainPage.xbf
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\View\Example.xbf
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.xr.xml
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.exe
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.pdb
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\resources.pri
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\AppxManifest.xml
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\Core\AppxManifest.xml
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\Core\demoTail.exe
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.build.appxrecipe
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\CommonServiceLocator.dll
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.dll
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.pdb
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\System.Runtime.dll
+D:\work\web\be\demotail\demoTail\demoTail\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CoreCompileInputs.cache
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CopyComplete
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.exe
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.pdb
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\ResourceHandlingTask.state
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\priconfig.xml
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\priconfig.xml.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\resources.resfiles
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\resources.resfiles.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\pri.resfiles
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\pri.resfiles.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\qualifiers.txt
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\qualifiers.txt.intermediate
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\GalaSoft.MvvmLight.Platform.pri.xml
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\ProjectArchitectures.txt
+D:\work\web\be\demotail\demoTail\demoTail\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758300200000000.json
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\App.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\MainPage.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\View\Example.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.xr.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.exe
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.pdb
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\resources.pri
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\AppxManifest.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\Core\AppxManifest.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\Core\demoTail.exe
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\demoTail.build.appxrecipe
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\CommonServiceLocator.dll
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.dll
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.pdb
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\System.Runtime.dll
+D:\Workspace\UWP\demotail\demoTail\demoTail\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csprojAssemblyReference.cache
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\App.g.i.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\App.g.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.g.i.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.g.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.g.i.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.g.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\App.xaml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.xaml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.xaml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\App.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\MainPage.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\View\Example.xbf
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\XamlSaveStateFile.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CoreCompileInputs.cache
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CopyComplete
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.exe
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\demoTail.pdb
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\ResourceHandlingTask.state
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\priconfig.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\priconfig.xml.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\resources.resfiles
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\resources.resfiles.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\pri.resfiles
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\pri.resfiles.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\qualifiers.txt
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\qualifiers.txt.intermediate
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\GalaSoft.MvvmLight.Platform.pri.xml
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\ProjectArchitectures.txt
+D:\Workspace\UWP\demotail\demoTail\demoTail\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758300200000000.json
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\App.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\MainPage.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\View\Example.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\demoTail.xr.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\demoTail.exe
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\demoTail.pdb
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\resources.pri
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\AppxManifest.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\Core\AppxManifest.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\Core\demoTail.exe
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\demoTail.build.appxrecipe
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\CommonServiceLocator.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.pdb
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.pdb
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.pdb
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\System.Runtime.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\demoTail.csprojAssemblyReference.cache
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\App.g.i.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\App.g.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\MainPage.g.i.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\MainPage.g.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\View\Example.g.i.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\View\Example.g.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\XamlTypeInfo.g.cs
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\App.xaml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\MainPage.xaml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\View\Example.xaml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\App.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\MainPage.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\View\Example.xbf
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\XamlSaveStateFile.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CoreCompileInputs.cache
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CopyComplete
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\demoTail.exe
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\demoTail.pdb
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\ResourceHandlingTask.state
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\priconfig.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\priconfig.xml.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\resources.resfiles
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\resources.resfiles.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\pri.resfiles
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\pri.resfiles.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\qualifiers.txt
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\qualifiers.txt.intermediate
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\GalaSoft.MvvmLight.Platform.pri.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\ProjectArchitectures.txt
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758300200000000.json
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\App.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\MainPage.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\View\Example.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\demoTail.xr.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\demoTail.exe
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\demoTail.pdb
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\resources.pri
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\AppxManifest.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\Core\AppxManifest.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\Core\demoTail.exe
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\demoTail.build.appxrecipe
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\CommonServiceLocator.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\GalaSoft.MvvmLight.pdb
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\System.Runtime.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\demoTail.csprojAssemblyReference.cache
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\App.g.i.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\App.g.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\MainPage.g.i.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\MainPage.g.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\View\Example.g.i.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\View\Example.g.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\App.xaml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\MainPage.xaml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\View\Example.xaml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\App.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\MainPage.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\View\Example.xbf
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\XamlSaveStateFile.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CoreCompileInputs.cache
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\demoTail.csproj.CopyComplete
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\demoTail.exe
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\demoTail.pdb
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\ResourceHandlingTask.state
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\priconfig.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\priconfig.xml.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\resources.resfiles
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\resources.resfiles.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\pri.resfiles
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\pri.resfiles.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\qualifiers.txt
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\qualifiers.txt.intermediate
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\GalaSoft.MvvmLight.Platform.pri.xml
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\ProjectArchitectures.txt
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758300200000000.json
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\bin\x64\Debug\NAudio.dll
+D:\Workspace\UWP\AudioUWP\demoTail\demoTail\obj\x64\Debug\NAudio.pri.xml
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\bin\x64\Debug\NAudio.dll
+G:\Hoang\New folder (2)\uwp\demoTail\demoTail\obj\x64\Debug\NAudio.pri.xml
