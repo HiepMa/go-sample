@@ -98,6 +98,8 @@
     <Compile Include="Service\DipRtpVoiceEncoder.cs" />
     <Compile Include="Util\VoiceEncoder.cs" />
     <Compile Include="ViewModel\DemoViewModel.cs" />
+    <Compile Include="ViewModel\DeviceInformationDisplay.cs" />
+    <Compile Include="ViewModel\DeviceWatcherHelper.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="View\Demo.xaml.cs">

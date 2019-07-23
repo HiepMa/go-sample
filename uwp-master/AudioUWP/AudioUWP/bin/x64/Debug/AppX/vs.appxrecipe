@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T09:49:54.910</Modified>
+      <Modified>2019-07-23T11:04:48.355</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\AudioUWP.exe">
       <PackagePath>entrypoint\AudioUWP.exe</PackagePath>
-      <Modified>2019-07-22T09:49:52.941</Modified>
+      <Modified>2019-07-23T11:04:47.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nkhiep\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -126,19 +126,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\AudioUWP.xr.xml">
       <PackagePath>AudioUWP.xr.xml</PackagePath>
-      <Modified>2019-07-22T09:49:52.538</Modified>
+      <Modified>2019-07-23T10:45:02.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-07-22T09:49:52.585</Modified>
+      <Modified>2019-07-23T11:04:47.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\View\Demo.xbf">
       <PackagePath>View\Demo.xbf</PackagePath>
-      <Modified>2019-07-22T09:49:52.585</Modified>
+      <Modified>2019-07-23T11:04:47.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2019-07-22T09:49:52.586</Modified>
+      <Modified>2019-07-23T11:04:47.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -146,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-22T09:49:53.692</Modified>
+      <Modified>2019-07-23T10:45:03.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\uwp-master\AudioUWP\AudioUWP\bin\x64\Debug\Core\AudioUWP.exe">
       <PackagePath>AudioUWP.exe</PackagePath>
-      <Modified>2019-07-22T09:49:54.893</Modified>
+      <Modified>2019-07-23T11:04:48.347</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

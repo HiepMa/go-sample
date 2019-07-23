@@ -37,6 +37,6 @@ namespace AudioUWP.ViewModel
         }
 
         public MainViewModel Main => ServiceLocator.Current.GetInstance<MainViewModel>();
-        public DemoViewModel demo => ServiceLocator.Current.GetInstance<DemoViewModel>();
+        public DemoViewModel Demo => ServiceLocator.Current.GetInstance<DemoViewModel>();
     }
 }
