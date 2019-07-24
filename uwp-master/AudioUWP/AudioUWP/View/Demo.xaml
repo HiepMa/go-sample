@@ -74,6 +74,8 @@
                     </ListView>
                 </StackPanel>
             </ScrollViewer>
+            <Border x:Name="ErrorBorder" Background="Red" Grid.Row="2"/>
+            <TextBlock x:Name="StatusBlock" Grid.Row="1" Margin="12, 10, 12, 10" Visibility="{Binding Vs_Co}" Text="{Binding Text}"/>
         </Grid>
     </Grid>
 </Page>

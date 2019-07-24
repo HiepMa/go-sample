@@ -1,14 +1,14 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
-using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel;
+using System.Diagnostics;
 using Windows.Devices.Enumeration;
+using System;
 using Windows.Devices.HumanInterfaceDevice;
-using Windows.UI.Core;
+using Windows.Devices.Sensors;
+using Windows.Networking.Proximity;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace AudioUWP.ViewModel
 {
@@ -18,9 +18,9 @@ namespace AudioUWP.ViewModel
         private RelayCommand _click_stop;
         private bool _bs1;
         private bool _bs2;
-        private string _name;
         private DeviceInfo _index;
-        private DeviceWatcherHelper deviceWatcherHelper;
+        private string _text;
+        private string _vs_co;
 
         private List<DeviceInfo> deviceInfo = new List<DeviceInfo>();
 
@@ -30,30 +30,23 @@ namespace AudioUWP.ViewModel
             List<DeviceInfo> selectors = new List<DeviceInfo>();
 
             // Pre-canned device class selectors
-            selectors.Add(new DeviceInfo("All Device Interfaces (default)", DeviceClass.All, null));
-            selectors.Add(new DeviceInfo("Audio Capture", DeviceClass.AudioCapture,  null ));
-            selectors.Add(new DeviceInfo("Audio Render", DeviceClass.AudioRender, null ));
-            selectors.Add(new DeviceInfo("Image Scanner",DeviceClass.ImageScanner,null ));
-           /* selectors.Add(new DeviceInfo() { DisplayName = "Location", DeviceClassSelector = DeviceClass.Location, Selector = null });
-            selectors.Add(new DeviceInfo() { DisplayName = "Portable Storage", DeviceClassSelector = DeviceClass.PortableStorageDevice, Selector = null });
-            selectors.Add(new DeviceInfo() { DisplayName = "Video Capture", DeviceClassSelector = DeviceClass.VideoCapture, Selector = null });
-*/
+            selectors.Add(new DeviceInfo() { DisplayName = "All Device Interfaces (default)", DeviceClassSelector = DeviceClass.All, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Audio Capture", DeviceClassSelector = DeviceClass.AudioCapture, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Audio Render", DeviceClassSelector = DeviceClass.AudioRender, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Image Scanner", DeviceClassSelector = DeviceClass.ImageScanner, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Location", DeviceClassSelector = DeviceClass.Location, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Portable Storage", DeviceClassSelector = DeviceClass.PortableStorageDevice, Selection = null });
+            selectors.Add(new DeviceInfo() { DisplayName = "Video Capture", DeviceClassSelector = DeviceClass.VideoCapture, Selection = null });
+
             // A few examples of selectors built dynamically by windows runtime apis.
-/*            selectors.Add(new DeviceInfo("Human Interface (HID)", null ,HidDevice.GetDeviceSelector(0, 0));*/
-/*            selectors.Add(new DeviceInfo() { DisplayName = "Activity Sensor", Selector = ActivitySensor.GetDeviceSelector() });
-            selectors.Add(new DeviceInfo() { DisplayName = "Pedometer", Selector = Pedometer.GetDeviceSelector() });
-            selectors.Add(new DeviceInfo() { DisplayName = "Proximity", Selector = ProximityDevice.GetDeviceSelector() });
-            selectors.Add(new DeviceInfo() { DisplayName = "Proximity Sensor", Selector = ProximitySensor.GetDeviceSelector() });
-*/
+            selectors.Add(new DeviceInfo() { DisplayName = "Human Interface (HID)", Selection = HidDevice.GetDeviceSelector(0, 0) });
+            selectors.Add(new DeviceInfo() { DisplayName = "Activity Sensor", Selection = ActivitySensor.GetDeviceSelector() });
+            selectors.Add(new DeviceInfo() { DisplayName = "Pedometer", Selection = Pedometer.GetDeviceSelector() });
+            selectors.Add(new DeviceInfo() { DisplayName = "Proximity", Selection = ProximityDevice.GetDeviceSelector() });
+            selectors.Add(new DeviceInfo() { DisplayName = "Proximity Sensor", Selection = ProximitySensor.GetDeviceSelector() });
+
             return selectors;
         }
-/*
-        public List<DeviceInfoSelection> CreateSelection()
-        {
-            List<DeviceInfoSelection> deviceInfoSelections = new List<DeviceInfoSelection>();
-            deviceInfoSelections.Add(new DeviceInfoSelection("123", "456", "789"));
-            return deviceInfoSelections;
-        }*/
 
         public List<DeviceInfoSelection> ItemList
         {
@@ -68,7 +61,23 @@ namespace AudioUWP.ViewModel
         {
             Bs_1 = true;
             Bs_2 = false;
+            Vs_Co = "Collapsed";
             Info = CreateList();
+        }
+
+        public string Text
+        {
+            get { return _text; }
+            set { _text = value;
+                RaisePropertyChanged("Text");
+            }
+        }
+        public string Vs_Co
+        {
+            get { return _vs_co; }
+            set { _vs_co = value;
+                RaisePropertyChanged("Vs_Co");
+            }
         }
         public bool Bs_1
         {
@@ -97,16 +106,6 @@ namespace AudioUWP.ViewModel
             {
                 _index = value;
                 RaisePropertyChanged("Index");
-            }
-        }
-
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                _name = value;
-                RaisePropertyChanged("Name");
             }
         }
 
@@ -140,9 +139,10 @@ namespace AudioUWP.ViewModel
         {
             Bs_1 = true;
             Bs_2 = false;
+            Vs_Co = "Collapsed";
         }
 
-        private void Start()
+        async void Start()
         {
             ItemList = null;
             Bs_1 = false;
@@ -150,62 +150,40 @@ namespace AudioUWP.ViewModel
 
             // First get the device selector chosen by the UI.
             DeviceInfo dv = Index;
-            DeviceWatcher deviceWatcher;
-            if(null == dv.Selection)
+            /*var dev = await DeviceInformation.FindAllAsync();*/
+            DeviceInformationCollection dev = null;
+            if (null == dv.Selection)
             {
-                deviceWatcher = DeviceInformation.CreateWatcher(dv.DeviceClassSelector);
+                dev = await DeviceInformation.FindAllAsync(dv.DeviceClassSelector);
             }
             else if(dv.Kind == DeviceInformationKind.Unknown)
             {
-                deviceWatcher = DeviceInformation.CreateWatcher(dv.Selection, null);
+                dev = await DeviceInformation.FindAllAsync(dv.Selection, null);
             }
             else
             {
-                deviceWatcher = DeviceInformation.CreateWatcher(dv.Selection, null, dv.Kind);
+                dev = await DeviceInformation.FindAllAsync(dv.Selection, null, dv.Kind);
             }
-            Run(deviceWatcher);
+            Output(dev);
+
         }
 
-        public void Run(DeviceWatcher deviceWatcher)
+        public void Output(DeviceInformationCollection dev)
         {
-            deviceWatcher.Added += Watcher_DeviceAdded;
-            deviceWatcher.Updated += Watcher_DeviceUpdated;
-            deviceWatcher.Removed += Watcher_DeviceRemoved;
-/*            deviceWatcher.EnumerationCompleted += Watcher_EnumerationCompleted;
-            deviceWatcher.Stopped += Watcher_Stopped;*/
-
-            deviceWatcher.Start();
-        }
-
-        private void Watcher_DeviceRemoved(DeviceWatcher sender, DeviceInformationUpdate args)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Watcher_DeviceUpdated(DeviceWatcher sender, DeviceInformationUpdate args)
-        {
-            throw new NotImplementedException();
-        }
-        CoreDispatcher dispatcher;
-        private async void Watcher_DeviceAdded(DeviceWatcher sender, DeviceInformation deviceInfo)
-        {
-            // Since we have the collection databound to a UI element, we need to update the collection on the UI thread.
-            await dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
+            ItemList = null;
+            List<DeviceInfoSelection> liste = new List<DeviceInfoSelection>();
+            foreach (var device in dev)
             {
-                List<DeviceInfoSelection> dv = ItemList;
-                // Watcher may have stopped while we were waiting for our chance to run.
-                if (IsWatcherStarted(sender))
+                /*if (device.Kind.Equals(0))
                 {
-                    dv.Add(new DeviceInfoSelection(deviceInfo));
-                    ItemList = dv;
-                }
-            });
-        }
-
-        private bool IsWatcherStarted(DeviceWatcher watcher)
-        {
-            return (watcher.Status == DeviceWatcherStatus.Started) ||
-                (watcher.Status == DeviceWatcherStatus.EnumerationCompleted);
+                    Debug.WriteLine(device.Name + " " + device.Id + " " + device.Pairing.IsPaired);
+                }*/
+                Debug.WriteLine(device.Name + " " + device.Id + " " + device.Pairing.IsPaired);
+                liste.Add(new DeviceInfoSelection(device));
+            }
+            ItemList = liste;
+            Vs_Co = "Visible";
+            Text = liste.Count.ToString() + " Device Found ....";
         }
     }
 
@@ -214,35 +192,45 @@ namespace AudioUWP.ViewModel
         public string DisplayName { get; set; }
         public DeviceClass DeviceClassSelector { get; set; }
         public string Selection { get; set; }
-
         public DeviceInformationKind Kind { get; set; }
-
-        public DeviceInfo(string displayName, DeviceClass deviceClassSelector, string selection)
+        public DeviceInfo()
         {
-            DisplayName = displayName;
-            DeviceClassSelector = deviceClassSelector;
-            Selection = selection;
+            Kind = DeviceInformationKind.Unknown;
+            DeviceClassSelector = DeviceClass.All;
         }
     }
 
-    public class DeviceInfoSelection
+    public class DeviceInfoSelection : ViewModelBase
     {
         private DeviceInformation deviceInfo;
 
-        public string GlyphBitmapImage { get; set; }
-        public string Name { get; set; }
-        public string Id { get; set; }
+        public BitmapImage GlyphBitmapImage { get; private set; }
+        public string Name { get { return deviceInfo.Name; } }
+        public string Id {
+            get
+            {
+                return deviceInfo.Id;
+            }
+        }
 
-        public DeviceInfoSelection(string glyphBitmapImage, string name, string id)
+        public DeviceInformationKind Kind
         {
-            GlyphBitmapImage = glyphBitmapImage;
-            Name = name;
-            Id = id;
+            get { return deviceInfo.Kind; }
         }
 
         public DeviceInfoSelection(DeviceInformation deviceInfo)
         {
             this.deviceInfo = deviceInfo;
+            UpdateGlyphBitmapImage();
+        }
+
+        private async void UpdateGlyphBitmapImage()
+        {
+            DeviceThumbnail deviceThumbnail = await deviceInfo.GetGlyphThumbnailAsync();
+            BitmapImage glyphBitmapImage = new BitmapImage();
+            await glyphBitmapImage.SetSourceAsync(deviceThumbnail);
+            GlyphBitmapImage = glyphBitmapImage;
+            RaisePropertyChanged("GlyphBitmapImage");
         }
     }
 

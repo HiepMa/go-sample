@@ -56,25 +56,6 @@ namespace AudioUWP.ViewModel
             }
             CountDevices = dev.Count.ToString();
 
-            /*var info = GetInfo();
-            foreach (var sound in info)
-            {
-                Debug.WriteLine("Device ID: {0}, PNP Device ID: {1}, Description: {2}",
-                                 sound.Id, sound.PnpId, sound.Des);
-            }*/
-            /*var objSearcher = new ManagementObjectSearcher(
-                   "SELECT * FROM Win32_SoundDevice");
-
-            var objCollection = objSearcher.Get();
-            foreach (var d in objCollection)
-            {
-                Console.WriteLine("=====DEVICE====");
-                foreach (var p in d.Properties)
-                {
-                    Console.WriteLine($"{p.Name}:{p.Value}");
-                }
-            }*/
-            /*EnumerateHidDevices();*/
         }
 
         class SoundInfo
