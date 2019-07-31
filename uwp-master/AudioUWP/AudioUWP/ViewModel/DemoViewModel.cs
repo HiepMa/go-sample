@@ -1,7 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
 using Windows.Devices.Enumeration;
 using System;
@@ -9,6 +8,8 @@ using Windows.Devices.HumanInterfaceDevice;
 using Windows.Devices.Sensors;
 using Windows.Networking.Proximity;
 using Windows.UI.Xaml.Media.Imaging;
+using NAudio.Wave;
+using NAudio.CoreAudioApi;
 
 namespace AudioUWP.ViewModel
 {
@@ -48,6 +49,15 @@ namespace AudioUWP.ViewModel
             return selectors;
         }
 
+/*        public string Channel
+        {
+            get { return _channel; }
+            set
+            {
+                _channel = value;
+                RaisePropertyChanged("Channel");
+            }
+        }*/
         public List<DeviceInfoSelection> ItemList
         {
             get { return deviceInfoSelections; }
@@ -148,9 +158,9 @@ namespace AudioUWP.ViewModel
             Bs_1 = false;
             Bs_2 = true;
 
-            // First get the device selector chosen by the UI.
+            /*// First get the device selector chosen by the UI.
             DeviceInfo dv = Index;
-            /*var dev = await DeviceInformation.FindAllAsync();*/
+            *//*var dev = await DeviceInformation.FindAllAsync();*//*
             DeviceInformationCollection dev = null;
             if (null == dv.Selection)
             {
@@ -164,7 +174,10 @@ namespace AudioUWP.ViewModel
             {
                 dev = await DeviceInformation.FindAllAsync(dv.Selection, null, dv.Kind);
             }
-            Output(dev);
+            Output(dev);*/
+            WaveOutCapabilities list = new WaveOutCapabilities();
+            
+            Debug.WriteLine(list.ProductName);
 
         }
 
@@ -174,11 +187,7 @@ namespace AudioUWP.ViewModel
             List<DeviceInfoSelection> liste = new List<DeviceInfoSelection>();
             foreach (var device in dev)
             {
-                /*if (device.Kind.Equals(0))
-                {
-                    Debug.WriteLine(device.Name + " " + device.Id + " " + device.Pairing.IsPaired);
-                }*/
-                Debug.WriteLine(device.Name + " " + device.Id + " " + device.Pairing.IsPaired);
+                Debug.WriteLine(device.Name + " " + device.Id + " " + device.Pairing.IsPaired + " "+ device.Properties);
                 liste.Add(new DeviceInfoSelection(device));
             }
             ItemList = liste;
@@ -203,7 +212,13 @@ namespace AudioUWP.ViewModel
     public class DeviceInfoSelection : ViewModelBase
     {
         private DeviceInformation deviceInfo;
-
+        /*public string Channel
+        {
+            get
+            {
+                
+            }
+        }*/
         public BitmapImage GlyphBitmapImage { get; private set; }
         public string Name { get { return deviceInfo.Name; } }
         public string Id {

@@ -5,6 +5,7 @@
     <RootPropertyPathName Name="Vs_Co" />
     <RootPropertyPathName Name="Text" />
     <RootPropertyPathName Name="ItemList" />
+    <RootPropertyPathName Name="Channel" />
     <RootPropertyPathName Name="Id" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="GlyphBitmapImage" />

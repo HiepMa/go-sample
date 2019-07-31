@@ -97,6 +97,7 @@
     <Compile Include="Service\AudioRecorder.cs" />
     <Compile Include="Service\DipRtpVoiceEncoder.cs" />
     <Compile Include="Util\VoiceEncoder.cs" />
+    <Compile Include="ViewModel\AudioViewModel.cs" />
     <Compile Include="ViewModel\DemoViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
